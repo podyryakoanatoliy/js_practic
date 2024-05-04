@@ -43,11 +43,10 @@
 // const newNumber = Number(prompt("ВведіПРОГРАМУ , ДЕ МИ У КОРИСТОВАЧА ПИТАЄМОСЬ МІСЯЦЬ НАРОДЖЕННЯ, І ПОКАЗУЄМО У ЯКУ ПОРУ РОКУ ВІН НАРОДИВСЯть число"));
 // console.log(`остача- ${newNumber % 2}`);
 // newNumber % 2 === 0
-  // ? console.log(`ви ввели число ${newNumber}, воно парне`)
-  // : console.log(`ви ввели число ${newNumber}, воно непарне`);
+// ? console.log(`ви ввели число ${newNumber}, воно парне`)
+// : console.log(`ви ввели число ${newNumber}, воно непарне`);
 
-
-  // ПРОГРАМУ , ДЕ МИ У КОРИСТОВАЧА ПИТАЄМОСЬ МІСЯЦЬ НАРОДЖЕННЯ, І ПОКАЗУЄМО У ЯКУ ПОРУ РОКУ ВІН НАРОДИВСЯ
+// ПРОГРАМУ , ДЕ МИ У КОРИСТОВАЧА ПИТАЄМОСЬ МІСЯЦЬ НАРОДЖЕННЯ, І ПОКАЗУЄМО У ЯКУ ПОРУ РОКУ ВІН НАРОДИВСЯ
 
 // const month = Number(prompt("Введи номер місяця, в який ти народився"))
 // if (month === 12 || month === 1 || month === 2) {
@@ -95,17 +94,26 @@
 //         console.log("choise your sub");
 // }
 
-// ЗАДАЧА 9 
+// ЗАДАЧА 9
 // НАПИШІТЬ ЦИКЛ FOR ЯКА БУДЕ ВИВОДИТИ У КОНСОЛЬ ЧИСЛА ЗА ЗРОСТАННЯМ ВІД MIN ДО MAX, ПІСЛЯ ТОГО ЧИСЛА КРАТНІ 10
 
-const mindata = 1;
-const maxdata = 100;
-for (let i = mindata; i <= maxdata; i++) {
-  console.log(i);
-}
+// const mindata = 1;
+// const maxdata = 100;
+// for (let i = mindata; i <= maxdata; i++) {
+//   console.log(i);
+// }
 
-for (i = mindata; i<= maxdata; i++) {
-  if (i%10 === 0) {
-    console.log(i)
-  }
-}
+// for (i = mindata; i<= maxdata; i++) {
+//   if (i%10 === 0) {
+//     console.log(i)
+//   }
+// }
+
+// ЗАДАЧА 10
+// НАПИШІТЬ ПРОГРАМУ, ЯКА БУДЕ ВИЗНАЧАТИ ДОВЖИНУ ІМЕНІ , ЯКЩО ІМЯ БІЛЬШЕ 7 СИМВОЛІВ, КОНСОЛЬ ВИВОДИТЬ "Wow, you  have a REALLY long name!" , ЯКЩО МЕНШЕ 7
+// "Your name isn't very long"
+
+const newName = prompt("Введіть ім'я");
+newName.length >= 7
+  ? console.log("Wow, you  have a REALLY long name!")
+  : console.log("Your name isn't very long");

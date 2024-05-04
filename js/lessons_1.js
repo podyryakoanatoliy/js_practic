@@ -12,7 +12,8 @@
 // ЗАДАЧА 2
 // ЗАПИТАТИ У КОРИСТУВАЧА ІМЯ, ПОЧТУ , ТЕЛЕФОН, І ПОКАЗАТИ У КОНСОЛІ "КОРИСТУВАЧ __ ВИКОРИСТОВУЄ  __ ПОЧТУ І __ ТЕЛЕФОН"
 
-const name = prompt('Введіть своє імя')
-const email = prompt('Введіть свою пошту')
-const number = prompt('Введіть свій номер')
-console.log(`КОРИСТУВАЧ ${name} ВИКОРИСТОВУЄ ${email} І ${number} `)
+// const name = prompt('Введіть своє імя')
+// const email = prompt('Введіть свою пошту')
+// const number = prompt('Введіть свій номер')
+// console.log(`КОРИСТУВАЧ ${name} ВИКОРИСТОВУЄ ${email} І ${number} `)
+

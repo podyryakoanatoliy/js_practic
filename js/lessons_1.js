@@ -29,10 +29,18 @@
 // "СКІЛЬКИ МІСЯЦІВ МАЄ РІК", ЯКЩО КОРИСТУВАЧ ВВОДИТЬ 12 ТО У КОНСОЛІ ПИШЕ ВІРНО, ЯКЩО НЕ ПРАВИЛЬНО КОРИСТУВАЧ ВВІВ, ТОДІ У КОНСОЛІ ПИШЕ
 // "НЕ ЗНАЄТЕ? 12"
 
-const month = Number(prompt("скільки місяців має рік"));
-const allMonth = 12;
-if (allMonth === month) {
-  console.log("вірно");
-} else {
-  console.log("не вірно");
-}
+// const month = Number(prompt("скільки місяців має рік"));
+// const allMonth = 12;
+// if (allMonth === month) {
+//   console.log("вірно");
+// } else {
+//   console.log("не вірно");
+// }
+
+// ЗАДАЧА 5
+// НАПИШІТЬ ПРОГРАМУ, ЯКА ДОЗВОЛЯТИМЕ ЮЗЕРУ ВВОДИТИ ЧИСЛО І ВИЗНАЧАТИМЕ ЧИ ЦЕ ПАРНЕ ЧИСЛО , ЧИ НЕ ПАРНЕ.
+
+const newNumber = Number(prompt("Введіть число"));
+newNumber % 2 === 0
+  ? console.log(`ви ввели число ${newNumber}, воно парне`)
+  : console.log(`ви ввели число ${newNumber}, воно непарне`);

@@ -97,3 +97,15 @@
 
 // ЗАДАЧА 9 
 // НАПИШІТЬ ЦИКЛ FOR ЯКА БУДЕ ВИВОДИТИ У КОНСОЛЬ ЧИСЛА ЗА ЗРОСТАННЯМ ВІД MIN ДО MAX, ПІСЛЯ ТОГО ЧИСЛА КРАТНІ 10
+
+const mindata = 1;
+const maxdata = 100;
+for (let i = mindata; i <= maxdata; i++) {
+  console.log(i);
+}
+
+for (i = mindata; i<= maxdata; i++) {
+  if (i%10 === 0) {
+    console.log(i)
+  }
+}

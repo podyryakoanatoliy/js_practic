@@ -40,8 +40,32 @@
 // ЗАДАЧА 5
 // НАПИШІТЬ ПРОГРАМУ, ЯКА ДОЗВОЛЯТИМЕ ЮЗЕРУ ВВОДИТИ ЧИСЛО І ВИЗНАЧАТИМЕ ЧИ ЦЕ ПАРНЕ ЧИСЛО , ЧИ НЕ ПАРНЕ.
 
-const newNumber = Number(prompt("Введіть число"));
-console.log(`остача- ${newNumber % 2}`);
-newNumber % 2 === 0
-  ? console.log(`ви ввели число ${newNumber}, воно парне`)
-  : console.log(`ви ввели число ${newNumber}, воно непарне`);
+// const newNumber = Number(prompt("ВведіПРОГРАМУ , ДЕ МИ У КОРИСТОВАЧА ПИТАЄМОСЬ МІСЯЦЬ НАРОДЖЕННЯ, І ПОКАЗУЄМО У ЯКУ ПОРУ РОКУ ВІН НАРОДИВСЯть число"));
+// console.log(`остача- ${newNumber % 2}`);
+// newNumber % 2 === 0
+  // ? console.log(`ви ввели число ${newNumber}, воно парне`)
+  // : console.log(`ви ввели число ${newNumber}, воно непарне`);
+
+
+  // ПРОГРАМУ , ДЕ МИ У КОРИСТОВАЧА ПИТАЄМОСЬ МІСЯЦЬ НАРОДЖЕННЯ, І ПОКАЗУЄМО У ЯКУ ПОРУ РОКУ ВІН НАРОДИВСЯ
+
+const month = Number(prompt("Введи номер місяця, в який ти народився"))
+if (month === 12 || month === 1 || month === 2) {
+console.log ("ти народився взимку")
+}
+
+else if (month >= 3 && month <= 5) {
+  console.log ("ти народився весною")
+}
+
+else if (month >= 6 && month <= 8) {
+  console.log ("ти народився влітку")
+}
+
+else if (month >= 9 && month <= 11) {
+  console.log ("ти народився восени")
+}
+
+else {
+  console.log("ти ввів невірний номер")
+}

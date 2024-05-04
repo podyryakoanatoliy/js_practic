@@ -16,3 +16,12 @@
 // const email = prompt('Введіть свою пошту')
 // const number = prompt('Введіть свій номер')
 // console.log(`КОРИСТУВАЧ ${name} ВИКОРИСТОВУЄ ${email} І ${number} `)
+
+// ЗАДАЧА 3
+// ПОТРІБНО ЗАПИТАТИ У МАГАЗИНІ ЦІНУ ЗА КОЖЕН ОКРЕМИЙ ТОВАР,ТА ВИВЕСТИ ПОВІДОМЛЕННЯМ   ЗАГАЛЬНУ ЦІНУ ТОВАРУ
+
+const tovar1 = Number(prompt('Введіть ціну 1'))
+const tovar2 = +prompt('Введіть ціну 2')
+const tovar3 = +prompt('Введіть ціну 3')
+const vsiTovary = tovar1 + tovar2 + tovar3
+console.log(vsiTovary)

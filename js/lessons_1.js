@@ -41,6 +41,7 @@
 // НАПИШІТЬ ПРОГРАМУ, ЯКА ДОЗВОЛЯТИМЕ ЮЗЕРУ ВВОДИТИ ЧИСЛО І ВИЗНАЧАТИМЕ ЧИ ЦЕ ПАРНЕ ЧИСЛО , ЧИ НЕ ПАРНЕ.
 
 const newNumber = Number(prompt("Введіть число"));
+console.log(`остача- ${newNumber % 2}`);
 newNumber % 2 === 0
   ? console.log(`ви ввели число ${newNumber}, воно парне`)
   : console.log(`ви ввели число ${newNumber}, воно непарне`);

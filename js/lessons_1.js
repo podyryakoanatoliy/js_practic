@@ -16,4 +16,3 @@
 // const email = prompt('Введіть свою пошту')
 // const number = prompt('Введіть свій номер')
 // console.log(`КОРИСТУВАЧ ${name} ВИКОРИСТОВУЄ ${email} І ${number} `)
-

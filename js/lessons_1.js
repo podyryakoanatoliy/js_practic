@@ -49,23 +49,48 @@
 
   // ПРОГРАМУ , ДЕ МИ У КОРИСТОВАЧА ПИТАЄМОСЬ МІСЯЦЬ НАРОДЖЕННЯ, І ПОКАЗУЄМО У ЯКУ ПОРУ РОКУ ВІН НАРОДИВСЯ
 
-const month = Number(prompt("Введи номер місяця, в який ти народився"))
-if (month === 12 || month === 1 || month === 2) {
-console.log ("ти народився взимку")
-}
+// const month = Number(prompt("Введи номер місяця, в який ти народився"))
+// if (month === 12 || month === 1 || month === 2) {
+// console.log ("ти народився взимку")
+// }
 
-else if (month >= 3 && month <= 5) {
-  console.log ("ти народився весною")
-}
+// else if (month >= 3 && month <= 5) {
+//   console.log ("ти народився весною")
+// }
 
-else if (month >= 6 && month <= 8) {
-  console.log ("ти народився влітку")
-}
+// else if (month >= 6 && month <= 8) {
+//   console.log ("ти народився влітку")
+// }
 
-else if (month >= 9 && month <= 11) {
-  console.log ("ти народився восени")
-}
+// else if (month >= 9 && month <= 11) {
+//   console.log ("ти народився восени")
+// }
 
-else {
-  console.log("ти ввів невірний номер")
-}
+// else {
+//   console.log("ти ввів невірний номер")
+// }
+
+// ЗАДАЧА 8
+// НАПИШІТЬ ПРОГРАМУ , ЯКА БУДЕ ЗАПИТУВАТИ У КОРИСТУВАЧА ПЕРІОД ПІДПИСКИ НА СЕРВІС ТА ПОКАЗУВАТИМЕ ЦІНУ ПІДПИСКИ(ВИКОРИСТАЙ IF..ELSE, ТА ПЕРЕПИШИ НА SWITCH)
+// ЯКЩО ДЕНЬ - ціна 1.99
+// ЯУЩО НЕДІЛЯ - ціна 5.99
+// ЯКЩО МІСЯЦЬ - ціна 10.99
+// ЯКЩО РІК - ціна 100.99
+
+// const subscribe = prompt("Input your type subscribe: ").toLowerCase();
+// switch (subscribe) {
+//     case "day" :
+//         console.log("Price: 1.99")
+//         break;
+//     case "week" :
+//         console.log("Price: 5.99")
+//         break;
+//     case "month" :
+//         console.log("Price: 10.99")
+//         break;
+//     case "year" :
+//         console.log("Price: 100.99")
+//         break;
+//     default:
+//         console.log("choise your sub");
+// }

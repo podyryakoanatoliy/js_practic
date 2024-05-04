@@ -117,19 +117,15 @@
 // newName.length >= 7
 //   ? console.log("Wow, you  have a REALLY long name!")
 //   : console.log("Your name isn't very long");
-
-
 // ЗАДАЧА 7
 // НАПИШІТЬ ПРОГРАМУ, ЯКА ПРОВІРЯЄ ЛОГІН І ПАРОЛЬ, І ВИВОДИТЬ ПРИВІТАННЯ - ЯКЩО ВСЕ ДОБРЕ, АБО ВИДАЄ ПОМИЛКУ , ЩО НЕ ВІРНИЙ ЛОГІН
+// const correctLogin = "qwerTY123";
+// const correctPassword = "qwerTY1234";
+// const inputLogin = prompt("Input your login: ");
+// const inputPassword = prompt("Input your password: ");
 
-const correctLogin = "qwerTY123";
-const correctPassword = "qwerTY1234";
-
-const inputLogin = prompt("Input your login: ");
-const inputPassword = prompt("Input your password: ");
-
-if (inputLogin === correctLogin && inputPassword===correctPassword) {
-    console.log("Thank you, your are welcome");
-} else {
-    console.log("Go away");
-}
+// if (inputLogin === correctLogin && inputPassword===correctPassword) {
+//     console.log("Thank you, your are welcome");
+// } else {
+//     console.log("Go away");
+// }

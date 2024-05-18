@@ -40,15 +40,23 @@
 // console.log(findSmallestNumber([2, 17, 94, 1, 23, 37]));
 // console.log(findSmallestNumber([49, 4, 83, 7, 12]));
 
-function findSmallestNumber(numbers) {
-  let smallPoint = numbers[0];
-  for (let i = 0; i < numbers.length; i++) {
-    if (smallPoint > numbers[i]) {
-      smallPoint = numbers[i];
-    }
-  }
-  return smallPoint;
-}
+// function findSmallestNumber(numbers) {
+//   let smallPoint = numbers[0];
+//   for (let i = 0; i < numbers.length; i++) {
+//     if (smallPoint > numbers[i]) {
+//       smallPoint = numbers[i];
+//     }
+//   }
+//   return smallPoint;
+// }
 
-console.log(findSmallestNumber([2, 17, 94, 1, 23, 37]));
-console.log(findSmallestNumber([49, 4, 83, 7, 12]));
+// console.log(findSmallestNumber([2, 17, 94, 1, 23, 37]));
+// console.log(findSmallestNumber([49, 4, 83, 7, 12]));
+
+// ЗАДАЧА 4
+//  Провірте , чи являється рядок паліндромом
+const str = "ротатор";//true
+const newString = "Hello";//false
+
+const word = newString.split("").reverse().join("");
+console.log(word === newString);

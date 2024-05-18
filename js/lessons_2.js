@@ -13,11 +13,21 @@
 // Классика, Рок-н-ролл
 // Рэп, Регги, Классика, Рок-н-ролл
 
-const styles = ['Jazz', 'Bluz'];
-styles.push('rock-n-roll');
-styles.splice(1, 1, 'classic')
+// const styles = ['Jazz', 'Bluz'];
+// styles.push('rock-n-roll');
+// styles.splice(1, 1, 'classic')
+// // console.log(styles);
+// styles.shift();
+// // console.log(styles.shift([0]));
+// styles.unshift('Rap', 'Raggy')
 // console.log(styles);
-styles.shift();
-// console.log(styles.shift([0]));
-styles.unshift('Rap', 'Raggy')
-console.log(styles);
+
+// ЗАДАЧА 2
+// використовуючи цикл for , який для кожного елемента масива буде виводити в консоль 
+// повідомлення у форматі <індекс елемента> та <значення елемента>.
+// Номерація для кожного елемента масива ['Mango', 'Poly', 'Ajax'] з індексом 0 буде виведено 1 - Mango, а для индекса 2 выведет 3 - Ajax
+
+const fruits = ['Mango', 'Poly', 'Ajax'];
+for (let fruit of fruits) {
+    console.log(fruits.indexOf(fruit) + 1,fruit)
+}

@@ -71,25 +71,42 @@
 //         totalCount += array;
 //     }
 //     return totalCount / arrays.length;
-        
+
 //     }
-
-
 
 // console.log(calculateAverage(1, 2, 3, 4)); // 2.5
 // console.log(calculateAverage(14, 8, 2)); // 8
 // console.log(calculateAverage(27, 43, 2, 8, 36));// 23.2
 
-
 // ЗАДАЧА 6
-// Напишіть ф-цію greet(name) , яка при виклику буде получати імя (як приклад , "Василь"), і логінувати рядок "Привіт, <імя>".У випадку , відсутнього 
+// Напишіть ф-цію greet(name) , яка при виклику буде получати імя (як приклад , "Василь"), і логінувати рядок "Привіт, <імя>".У випадку , відсутнього
 // відсутнього значення, виводе аргумент "Привіт , гість"
 // console.log(greet("Василь"));//Привіт Василь
 // console.log(greet());//Привіт гість
 
-function greet (name = "гість") {
-    return `Привіт ${name}`
-}
+// function greet (name = "гість") {
+//     return `Привіт ${name}`
+// }
 
-console.log(greet("Василь"));//Привіт Василь
-console.log(greet());//Привіт гість
+// console.log(greet("Василь"));//Привіт Василь
+// console.log(greet());//Привіт гість
+
+// ЗАДАЧА 7
+// Напишіть ф-цію capitalize , яка буде приймати рядок і буде повертати новий рядок , де кожне слово буде з великої букви
+// capitalize('the quick brown fox')// 'The Quick Brown Fox '
+
+function capitalize(string) {
+  let newString = string.split(" ");
+  let firstPoint = "";
+  let allPoint = "";
+  let array = [];
+  for (const index of newString) {
+    firstPoint = index[0].toUpperCase();
+    allPoint = index.slice(1);
+    newString = `${firstPoint}${allPoint}`;
+    array.push(newString);
+  }
+
+  return array.join(" ");
+}
+console.log(capitalize("the quick brown fox"));

@@ -95,18 +95,102 @@
 // Напишіть ф-цію capitalize , яка буде приймати рядок і буде повертати новий рядок , де кожне слово буде з великої букви
 // capitalize('the quick brown fox')// 'The Quick Brown Fox '
 
-function capitalize(string) {
-  let newString = string.split(" ");
-  let firstPoint = "";
-  let allPoint = "";
-  let array = [];
-  for (const index of newString) {
-    firstPoint = index[0].toUpperCase();
-    allPoint = index.slice(1);
-    newString = `${firstPoint}${allPoint}`;
-    array.push(newString);
-  }
+// function capitalize(string) {
+//   let newString = string.split(" ");
+//   let firstPoint = "";
+//   let allPoint = "";
+//   let array = [];
+//   for (const index of newString) {
+//     firstPoint = index[0].toUpperCase();
+//     allPoint = index.slice(1);
+//     newString = `${firstPoint}${allPoint}`;
+//     array.push(newString);
+//   }
 
-  return array.join(" ");
-}
-console.log(capitalize("the quick brown fox"));
+//   return array.join(" ");
+// }
+// console.log(capitalize("the quick brown fox"));
+
+// ЗАДАЧА 9
+// Напишіть функцію для роботи з колекцією навчаючих курсів courses:
+
+// addCourse(name) - добавляє курс у кінець колекції
+// removeCourse(name) - видаляє курс із колекції
+// // updateCourse(oldName, newName)- змінює імя на нове
+// const courses = ["HTML", "CSS", "JavaScript", "React", "PostgreSQL"];
+// function addCourse(name) {
+// if (courses.includes(name)) {
+//     return 'У вас уже є такий курс';
+// }
+// courses.push(name);
+// }
+
+// function removeCourse(name) {
+//     if (courses.indexOf(name) === -1) {
+//         return 'Курс з таким іменем не найдено';
+// }
+// courses.splice(courses.indexOf(name), 1);
+// }
+
+// function updateCourse(oldName, newName) {
+//     const indexName = courses.indexOf(oldName);
+//     console.log(indexName);
+//     courses.splice(indexName, 1, newName);
+// }
+
+// console.log(addCourse("Express")); // ['HTML', 'CSS', 'JavaScript', 'React', 'PostgreSQL', 'Express']
+// // console.log(addCourse("CSS")); // 'У вас уже є такий курс'
+// // console.log(removeCourse("React")); // ['HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'Express']
+// // console.log(removeCourse("Vue")); // 'Курс з таким іменем не найдено'
+// console.log(updateCourse("React", "NestJS")); // ['HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'NestJS']
+// console.log(courses);
+
+// ЗАДАЧА 1
+// Напишіть скрипт,для обєкта user в послідовності:
+
+//  добавляє поле mood із значенням 'happy'
+// замінює значення hobby на 'skydiving'
+// замінює значення  premium на false
+// виводить отримане обєкта user в форматі ключ:значення використовуючи  Object.keys() и for...of
+
+//  const user = {
+//    name: "Mango",
+//    age: 20,
+//    hobby: "html",
+//    premium: true,
+// };
+
+// ЗАДАЧА 2
+// У вас є обєкт , у якому зберігаються зарплати нашої команди.
+// Напишіть код , для підрахунку всіх зарплат і збережіть результат в змінні sum
+// Повинно получитись 390, якщо обєкт salaries пустий , то результат буде 0
+// ЩОБ МОЖНА БУЛО ПЕРЕВИКОРИСТОВУВАТИ ЛОГІКУ, ТОМУ ПИШЕМО ФУНКЦІЮ
+
+
+//  const salaries = {
+//    John: 100,
+//    Ann: 160,
+//    Pete: 130,
+//  };
+
+// ЗАДАЧА 3
+// Створи обєкт calculator(калькулятор) з 3-ма методами:
+// read()- запитує 2 значення у юзера і зберігає їх як значення обєкта;
+// sum() -повертає суму збережених значень; 
+// mult() -перемножує значення збережені і повертає результат;
+
+//  const calculator = {
+//  a: null,
+//  b: null,
+
+//   read() {},
+
+//   sum() {},
+
+//   mult() {},
+// };
+
+
+// calculator.read();
+// console.log(`sum`, calculator.sum());
+// console.log(`mult`, calculator.mult());

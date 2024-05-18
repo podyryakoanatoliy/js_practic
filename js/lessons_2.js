@@ -65,17 +65,31 @@
 // Напишіть ф - цію calculateAverage() яка приймає довільну кількість аргументів і повертає їх середнє значення.
 // Всі аргументи будуть тільки числовими
 
-function calculateAverage(...arrays) {
-    let totalCount = 0;
-    for (const array of arrays) {
-        totalCount += array;
-    }
-    return totalCount / arrays.length;
+// function calculateAverage(...arrays) {
+//     let totalCount = 0;
+//     for (const array of arrays) {
+//         totalCount += array;
+//     }
+//     return totalCount / arrays.length;
         
-    }
+//     }
 
 
 
-console.log(calculateAverage(1, 2, 3, 4)); // 2.5
-console.log(calculateAverage(14, 8, 2)); // 8
-console.log(calculateAverage(27, 43, 2, 8, 36));// 23.2
+// console.log(calculateAverage(1, 2, 3, 4)); // 2.5
+// console.log(calculateAverage(14, 8, 2)); // 8
+// console.log(calculateAverage(27, 43, 2, 8, 36));// 23.2
+
+
+// ЗАДАЧА 6
+// Напишіть ф-цію greet(name) , яка при виклику буде получати імя (як приклад , "Василь"), і логінувати рядок "Привіт, <імя>".У випадку , відсутнього 
+// відсутнього значення, виводе аргумент "Привіт , гість"
+// console.log(greet("Василь"));//Привіт Василь
+// console.log(greet());//Привіт гість
+
+function greet (name = "гість") {
+    return `Привіт ${name}`
+}
+
+console.log(greet("Василь"));//Привіт Василь
+console.log(greet());//Привіт гість
